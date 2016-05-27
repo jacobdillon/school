@@ -1,0 +1,83 @@
+body {
+	margin: 40px auto;
+	width: 60%;
+	line-height: 1.8;
+	text-align: center;
+	font-size: 12pt;
+	font-family: "DejaVu Sans", Helvetica, Arial, sans-serif;
+	background: url("resources/background.jpg") no-repeat center center fixed;
+	background-size: cover;
+}
+
+a:link, a:visited {
+	color: #333333;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#navigation {
+	font-size: 10pt;
+	padding-top: 40px;
+}
+
+img {
+	max-width: 70%;
+	height: 300px;
+	padding 15px;
+}
+
+.caption {
+	background-color: #A2A2A2;
+	color: #222222;
+	width: 60%;
+	font-size: 10pt;
+	margin: auto;
+	padding 10px;
+}
+
+#header {
+	border-bottom: 4px solid;
+	font-size: 24pt;
+	font-weight: bold;
+	margin-bottom: 20px;
+	color: #E5E5E5;
+}
+
+#footer {
+	font-size: 12pt;
+	font-style: italic;
+	color: #E5E5E5;
+}
+
+.smallHeader {
+	font-weight: bold;
+	font-style: italic;
+	font-size: 16pt;
+	color: #050505;
+	position: relative;
+	top: 5px;
+	bottom: 5px;
+}
+
+#textbox {
+	background-color: #E5E5E5;
+	width: 100%;
+	color: #333333;
+	margin-bottom: 20px;
+}
+
+#textContainer {
+	padding-bottom: 40px;
+	padding-right: 40px;
+	padding-left: 40px;
+	text-align: justify;
+}
+
+.horizontalLine {
+	border-bottom: 4px solid;
+	margin-bottom: 20px;
+	color: #E5E5E5;
+}
